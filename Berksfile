@@ -4,7 +4,7 @@ metadata
 
 cookbook 'apt'
 cookbook 'consul'
-cookbook 'libarchive', "= v1.0.0"
+cookbook 'libarchive', "= v0.7.1"
 
 group :test do
   cookbook 'consul-template-spec', path: 'spec/fixtures/cookbooks/consul-template-spec'
