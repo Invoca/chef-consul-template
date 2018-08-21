@@ -1,3 +1,5 @@
+provides :consul_template_config
+
 actions :create, :delete, :add, :remove
 default_action :create 
 
