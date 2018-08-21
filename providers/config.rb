@@ -32,7 +32,7 @@ action :create do
   end
 
   template ::File.join(node['consul_template']['config_dir'], new_resource.name) do
-    cookbook 'consul-template'
+    cookbook 'invoca-consul-template'
     source 'config-template.json.erb'
     user consul_template_user
     group consul_template_group

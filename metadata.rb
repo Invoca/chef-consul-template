@@ -4,7 +4,7 @@ maintainer_email 'krone.adam@gmail.com'
 license          'Apache v2.0'
 description      'Installs/Configures consul-template'
 long_description 'Installs/Configures consul-template'
-version          '1.11.4'
+version          '1.11.5'
 
 recipe 'consul-template', 'Installs, configures, and starts the consul-template service.'
 recipe 'consul-template::install_binary', 'Installs consul-template from binary.'
