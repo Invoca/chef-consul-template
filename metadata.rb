@@ -17,7 +17,7 @@ supports 'centos', '>= 6.7'
 supports 'arch'
 
 depends 'ark'
-depends 'invoca-libarchive', '= 1.0.99'
+depends 'invoca-libarchive', '= 1.1.99'
 depends 'golang', '~> 1.4'
 depends 'runit'
 
