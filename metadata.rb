@@ -1,4 +1,4 @@
-name             'consul-template'
+name             'invoca-consul-template'
 maintainer       'Adam Krone'
 maintainer_email 'krone.adam@gmail.com'
 license          'Apache v2.0'
@@ -17,7 +17,7 @@ supports 'centos', '>= 6.7'
 supports 'arch'
 
 depends 'ark'
-depends 'libarchive', '= 1.0.99'
+depends 'invoca-libarchive', '= 1.0.99'
 depends 'golang', '~> 1.4'
 depends 'runit'
 
