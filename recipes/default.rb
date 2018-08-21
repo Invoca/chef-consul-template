@@ -7,5 +7,5 @@
 #
 #
 
-include_recipe "consul-template::install_#{node['consul_template']['install_method']}"
-include_recipe "consul-template::service"
+include_recipe "invoca-consul-template::install_#{node['consul_template']['install_method']}"
+include_recipe "invoca-consul-template::service"
