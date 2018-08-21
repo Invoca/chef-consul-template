@@ -7,7 +7,7 @@
 #
 #
 
-include_recipe 'libarchive::default'
+include_recipe 'invoca-libarchive::default'
 require 'chef/version_constraint'
 
 url = ::URI.join(node['consul_template']['base_url'],
